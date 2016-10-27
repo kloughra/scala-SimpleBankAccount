@@ -31,19 +31,18 @@ class Transactor extends Actor {
     case TransactionRequest(accnt,trans) => sender ! TransactionResponse( Try{
       if(trans.amount < 0) throw new ArithmeticException(s"Negative transactions not allowed (${trans.amount}).")
       trans match {
-        case d: Deposit => accnt.copy(transactions = trans #:: accnt.transactions, currentBalance = Some(accnt.currentBalance.getOrElse(0.0) + d.amount))
+        case d: Deposit =>
+          accnt.copy(transactions = trans #:: accnt.transactions)
         case w: Withdraw =>
-          if (accnt.currentBalance.getOrElse(0.0) >= w.amount)
-            accnt.copy(transactions = w #:: accnt.transactions, currentBalance = Some(accnt.currentBalance.getOrElse(0.0) - w.amount))
+          if (accnt.currentBalance >= w.amount)
+            accnt.copy(transactions = w #:: accnt.transactions)
           else
-            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance.getOrElse(0.0)}).")
+            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance}.")
         case t: Transfer =>
-          if (accnt.currentBalance.getOrElse(0.0) >= t.amount)
-          {accnt.copy(transactions = t #:: accnt.transactions,
-            currentBalance = if(t.direction) Some(accnt.currentBalance.getOrElse(0.0) + t.amount)
-            else Some(accnt.currentBalance.getOrElse(0.0) - t.amount))}
+          if (accnt.currentBalance >= t.amount)
+            accnt.copy(transactions = t #:: accnt.transactions)
           else
-            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance.getOrElse(0.0)}).")
+            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance}).")
         }
       })
     case _ => sender ! TransactionResponse(throw new Exception("Unknown message type"))
@@ -53,11 +52,19 @@ class Transactor extends Actor {
 
 case class Person(first: String, last: String, ssn: String)
 
-case class Account(opened: Date, owner: Person, transactions: Stream[Transaction],currentBalance:Option[Double],system:ActorSystem){
+case class Account(opened: Date, owner: Person, transactions: Stream[Transaction],system:ActorSystem){
   type Amount = Double
 
   val actor = system.actorOf(Props(new Transactor()))
   implicit val timeout = Timeout(10.seconds)
+
+  lazy val currentBalance = transactions.map(t => t match {
+    case d: Deposit => d.amount
+    case w: Withdraw => -w.amount
+    case t:Transfer => if(t.direction) t.amount else -t.amount
+    case _ => 0.0
+  }).sum
+
 
   // Make a deposit, returning a new account instance with the new transaction stream.
   def deposit(amount: Amount):Try[Account] = {
@@ -84,5 +91,5 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
 
 object Account {
   // Improve the API, make it possible to create a new account with just a person instance.
-  def apply(owner: Person, system:ActorSystem) = new Account(new Date(), owner, Stream[Transaction](),None,system)
+  def apply(owner: Person, system:ActorSystem) = new Account(new Date(), owner, Stream[Transaction](),system)
 }
