@@ -1,0 +1,12 @@
+compile
+console
+compile
+run
+compile
+compile -feature
+compile
+run
+compile
+run
+compile
+run
