@@ -2665,7 +2665,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 653ms :: artifacts dl 12ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 595ms :: artifacts dl 16ms[0m
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 compile produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 runtime produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 test produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-test.xml[0m
@@ -2679,5 +2679,5 @@
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 docs produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 pom produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for bank_account#bank_account_2.11;0.0.1 scala-tool produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (653ms resolve - 12ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (595ms resolve - 16ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

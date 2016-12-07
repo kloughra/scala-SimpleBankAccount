@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fc4bef0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a795404
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
 [info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@553fc414
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43cd0196
 [debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0
 [debug] 	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f760a02
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64ac41d4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8cf1b8b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a68477
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a3f1334
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cad9abd
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27bc738
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24145777
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5461f177
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d75afa
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-remote_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e9c7636
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@300c7498
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-remote_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c10a0d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40d22f64
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@426b4a76
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c0591eb
 [debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14a2a7af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62f8685b
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-agent_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e48ff15
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69b6377b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-agent_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-agent_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c2d3b41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d5ab136
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -381,7 +381,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aa15f29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4058ea07
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0
 [debug] 	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
@@ -389,7 +389,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e51a92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a22bcac
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
@@ -397,7 +397,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@344d1c10
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@768dc5ad
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
@@ -405,7 +405,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59c5f996
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@408a906d
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->runtime]
@@ -980,44 +980,44 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.12!akka-slf4j_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.12!akka-slf4j_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-agent_2.11;2.3.12!akka-agent_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-agent_2.11;2.3.12!akka-agent_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 213ms :: artifacts dl 23ms
+[debug] :: resolution report :: resolve 243ms :: artifacts dl 29ms
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 compile produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-compile.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 runtime produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-runtime.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 test produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-test.xml
@@ -1031,4 +1031,4 @@
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 docs produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-docs.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 pom produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-pom.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 scala-tool produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-scala-tool.xml
-[debug] 	resolve done (213ms resolve - 23ms download)
+[debug] 	resolve done (243ms resolve - 29ms download)
