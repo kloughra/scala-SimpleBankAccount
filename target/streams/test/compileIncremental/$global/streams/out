@@ -1,0 +1,40 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 12a46f8d, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes:/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/scala-2.11/test-classes:/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/scala-2.11/classes:/Users/katherine.loughran/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.0.jar:/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.12.jar:/Users/katherine.loughran/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.3.12.jar:/Users/katherine.loughran/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar:/Users/katherine.loughran/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/Users/katherine.loughran/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-agent_2.11/jars/akka-agent_2.11-2.3.12.jar:/Users/katherine.loughran/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/katherine.loughran/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.0.jar:/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar:/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/katherine.loughran/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.13.3.jar:/Users/katherine.loughran/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.3.12.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.881570849 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/src/test/scala/AccountSpec.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	convertToStringShouldWrapperForVerb, convertToStringCanWrapper, convertToAnyShouldWrapper, convertNumericToPlusOrMinusWrapper, convertToEqualizer, convertToInAndIgnoreMethodsAfterTaggedAs, shorthandSharedTestRegistrationFunction, convertToRegexWrapper, unconstrainedEquality, convertToStringMustWrapperForVerb, convertToInAndIgnoreMethods, convertToStringShouldWrapper, convertSymbolToHavePropertyMatcherGenerator, shorthandTestRegistrationFunction.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

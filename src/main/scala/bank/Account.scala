@@ -10,6 +10,15 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.util.Try
 
+import com.wix.accord.dsl._
+
+//Validate Amount !< 0
+//date in this lifetime?
+
+//Validate account
+//validate username
+//validate account amount > 0
+
 
 abstract class Transaction {
   type Amount = Double
@@ -65,7 +74,6 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
     case _ => 0.0
   }).sum
 
-
   // Make a deposit, returning a new account instance with the new transaction stream.
   def deposit(amount: Amount):Try[Account] = {
     val future = actor ? TransactionRequest(this,Deposit(new Date(),amount))
@@ -78,11 +86,13 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
     Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account
   }
 
-  def transfer(amount:Amount, toAccount:Account) : (Try[Account],Try[Account]) = {
-    val future = actor ? TransactionRequest(this,Transfer(new Date(),amount,toAccount,direction = false))
-    val future2 = actor ? TransactionRequest(toAccount,Transfer(new Date(),amount, this, direction = true))
-    (Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account,
-      Await.result(future2,timeout.duration).asInstanceOf[TransactionResponse].account)
+  def transfer(amount:Amount, toAccount:Account) : Try[(Try[Account],Try[Account])] = {
+    Try{
+      val future = actor ? TransactionRequest(this,Transfer(new Date(),amount,toAccount,direction = false))
+      val future2 = actor ? TransactionRequest(toAccount,Transfer(new Date(),amount, this, direction = true))
+      (Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account,
+        Await.result(future2,timeout.duration).asInstanceOf[TransactionResponse].account)
+    }
   }
 
   // Show me the transactions!!!
@@ -91,5 +101,10 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
 
 object Account {
   // Improve the API, make it possible to create a new account with just a person instance.
-  def apply(owner: Person, system:ActorSystem) = new Account(new Date(), owner, Stream[Transaction](),system)
+  lazy val system = ActorSystem("System")
+  def apply(owner: Person) = new Account(new Date(), owner, Stream[Transaction](),system)
+  def end() = if(!this.system.isTerminated) {
+    this.system.shutdown()
+    this.system.awaitTermination()
+  }
 }

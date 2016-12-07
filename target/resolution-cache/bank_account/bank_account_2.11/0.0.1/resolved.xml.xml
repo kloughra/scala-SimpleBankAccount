@@ -4,7 +4,7 @@
 		module="bank_account_2.11"
 		revision="0.0.1"
 		status="integration"
-		publication="20161027100130"
+		publication="20161206171946"
 	>
 		<description>
 		Bank_Account
@@ -36,8 +36,11 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.11" rev="3.0.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.0" conf="test->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.13.3" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-slf4j_2.11" rev="2.3.12" conf="compile->default(compile)"/>
+		<dependency org="com.wix" name="accord-core_2.11" rev="0.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.wix" name="accord-specs2_2.11" rev="0.4.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-remote_2.11" rev="2.3.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-agent_2.11" rev="2.3.12" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.3.12" conf="test->default(compile)"/>

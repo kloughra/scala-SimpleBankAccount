@@ -6,8 +6,12 @@ scalaVersion := "2.11.8"
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.13.3" % "test"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" %"2.3.12"
 libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" %"2.3.12"
+libraryDependencies += "com.wix" %% "accord-core" % "0.4.2"
+libraryDependencies += "com.wix" %% "accord-specs2" % "0.4.2"
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-remote"  % "2.3.12",
   "com.typesafe.akka" %% "akka-agent"   % "2.3.12",
