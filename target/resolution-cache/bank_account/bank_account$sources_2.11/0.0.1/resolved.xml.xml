@@ -4,7 +4,7 @@
 		module="bank_account$sources_2.11"
 		revision="0.0.1"
 		status="integration"
-		publication="20161206172040"
+		publication="20161207171033"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

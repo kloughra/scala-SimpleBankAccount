@@ -10,14 +10,3 @@ compile
 run
 compile
 run
-compile
-run
-last
-compile
-clean
-compile
-test
-console
-run
-exit
-run
