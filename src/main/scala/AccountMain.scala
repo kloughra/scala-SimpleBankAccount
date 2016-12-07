@@ -4,11 +4,13 @@ object AccountMain extends App{
 
   //val system = ActorSystem("System")
   val me = Person("Zaphod", "Beeblebrox", "77-123-4500")
-  val maybeZaphodsAccount = Account(me) deposit 1000.00
-  val maybeZaphodsAccount2 = maybeZaphodsAccount.get withdraw 10
+  val maybeZaphodsAccount = Account(me)
+  val x = maybeZaphodsAccount deposit 1000.00
+  //val y = maybeZaphodsAccount withdraw 10
 
-  println(maybeZaphodsAccount2 map(_.currentBalance))
+  println(maybeZaphodsAccount.currentBalance)
 
+    /*
   println(maybeZaphodsAccount2)
 
 
@@ -40,6 +42,6 @@ object AccountMain extends App{
     println(s"Current balance: ${account.currentBalance}")
     println(account)
   }
-
+*/
   Account.end
 }

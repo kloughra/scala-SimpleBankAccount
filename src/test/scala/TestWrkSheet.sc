@@ -10,6 +10,13 @@ val test = forAll(smallInteger){
 
 test.check
 
+
+object TransactionQueue{
+    var queue:Stream[Int] = Stream.empty[Int]
+}
+
+TransactionQueue.queue = 1 #:: TransactionQueue.queue
+
 import org.scalacheck.Properties
 import org.scalacheck.Prop.{BooleanOperators, forAll}
 
