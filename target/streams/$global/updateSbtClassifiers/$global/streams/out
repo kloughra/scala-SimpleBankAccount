@@ -788,9 +788,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 968ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 485ms :: artifacts dl 23ms
 [debug] 	report for bank_account#bank_account$sbt_2.11;0.0.1 default produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sbt_2.11-default.xml
-[debug] 	resolve done (968ms resolve - 31ms download)
+[debug] 	resolve done (485ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: bank_account#bank_account$sources_2.11;0.0.1
 [debug] 	confs: [default]
@@ -950,6 +950,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.8.2!sbt-dependency-graph.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
-[debug] :: resolution report :: resolve 39ms :: artifacts dl 8ms
+[debug] :: resolution report :: resolve 39ms :: artifacts dl 4ms
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 default produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-default.xml
-[debug] 	resolve done (39ms resolve - 8ms download)
+[debug] 	resolve done (39ms resolve - 4ms download)
