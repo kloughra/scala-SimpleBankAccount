@@ -10,3 +10,12 @@ compile
 run
 compile
 run
+test
+exit
+run
+exit
+rub
+run
+exit
+run
+exit

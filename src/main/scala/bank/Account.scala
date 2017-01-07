@@ -15,36 +15,47 @@ abstract class Transaction {
   type Amount = Double
   def date:Date
   def amount:Amount
+  def toAccount: Account
+  def fromAccount: Account
 }
+case class Deposit(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
+case class Withdraw(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
+case class Transfer(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
+//case class Transfer(date: Date, amount: Double, fromAccount: Account, direction:Boolean) extends Transaction
 
-case class Deposit(date: Date, amount: Double) extends Transaction
-case class Withdraw(date: Date, amount: Double) extends Transaction
-case class Transfer(date: Date, amount: Double, fromAccount: Account, direction:Boolean) extends Transaction
-
-case class TransactionRequest(account:Account,transaction: Transaction)
-case class TransactionResponse(account:Try[Account])
+case class TransactionRequest(transaction: Transaction)
+case class TransactionResponse(transaction: Try[Transaction])
 
 
 class Transactor extends Actor {
   type Amount = Double
   def receive = {
-    case TransactionRequest(accnt,trans) => sender ! TransactionResponse( Try{
+    case TransactionRequest(trans) => sender ! TransactionResponse( Try{
       if(trans.amount < 0) throw new ArithmeticException(s"Negative transactions not allowed (${trans.amount}).")
       trans match {
-        case d: Deposit =>
-          accnt.copy(transactions = trans #:: accnt.transactions)
-        case w: Withdraw =>
-          if (accnt.currentBalance >= w.amount)
-            accnt.copy(transactions = w #:: accnt.transactions)
+          case d: Deposit =>
+              //return the a new transaction with new account - including that new transaction
+              val newAccount = d.toAccount.copy(transactions = d #:: d.toAccount.transactions)
+              d.copy(toAccount = newAccount, fromAccount = newAccount)
+          //accnt.copy(transactions = trans #:: accnt.transactions)
+
+          case w: Withdraw =>
+              if (w.fromAccount.currentBalance >= w.amount) {
+                val newAccount = w.toAccount.copy(transactions = w #:: w.toAccount.transactions)
+                w.copy(toAccount = newAccount, fromAccount = newAccount)
+              }
+            //accnt.copy(transactions = w #:: accnt.transactions)
           else
-            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance}.")
+            throw new ArithmeticException(s"Insufficient balance (${w.fromAccount.currentBalance}.")
         case t: Transfer =>
-          if (accnt.currentBalance >= t.amount)
-            accnt.copy(transactions = t #:: accnt.transactions)
+          if (t.fromAccount.currentBalance >= t.amount)
+            t.copy(toAccount = t.toAccount.copy(transactions = t #:: t.toAccount.transactions),
+                   fromAccount = t.fromAccount.copy(transactions = t #:: t.fromAccount.transactions))
           else
-            throw new ArithmeticException(s"Insufficient balance (${accnt.currentBalance}).")
+            throw new ArithmeticException(s"Insufficient balance (${t.fromAccount.currentBalance}).")
         }
       })
+
     case _ => sender ! TransactionResponse(throw new Exception("Unknown message type"))
   }
 }
@@ -61,28 +72,30 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
   lazy val currentBalance = transactions.map(t => t match {
     case d: Deposit => d.amount
     case w: Withdraw => -w.amount
-    case t:Transfer => if(t.direction) t.amount else -t.amount
+    case t:Transfer => if(t.toAccount.owner.ssn == this.owner.ssn) t.amount else -t.amount
     case _ => 0.0
   }).sum
 
 
   // Make a deposit, returning a new account instance with the new transaction stream.
-  def deposit(amount: Amount):Try[Account] = {
-    val future = actor ? TransactionRequest(this,Deposit(new Date(),amount))
-    Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account
+  def deposit(amount: Amount):Try[Transaction] = {
+    val future = actor ? TransactionRequest(Deposit(new Date(),amount,this,this))
+    Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].transaction
   }
 
   // Withdraw some money.
-  def withdraw(amount: Amount): Try[Account] = {
-    val future = actor ? TransactionRequest(this,Withdraw(new Date(),amount))
-    Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account
+  def withdraw(amount: Amount): Try[Transaction] = {
+    val future = actor ? TransactionRequest(Withdraw(new Date(),amount,this,this))
+    Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].transaction
   }
 
-  def transfer(amount:Amount, toAccount:Account) : (Try[Account],Try[Account]) = {
-    val future = actor ? TransactionRequest(this,Transfer(new Date(),amount,toAccount,direction = false))
-    val future2 = actor ? TransactionRequest(toAccount,Transfer(new Date(),amount, this, direction = true))
+  def transfer(amount:Amount, toAccount:Account) : Try[Transaction] = {
+    val future = actor ? TransactionRequest(Transfer(new Date(),amount,toAccount,this))
+    /*val future2 = actor ? TransactionRequest(toAccount,Transfer(new Date(),amount, this, direction = true))
     (Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account,
-      Await.result(future2,timeout.duration).asInstanceOf[TransactionResponse].account)
+      Await.result(future2,timeout.duration).asInstanceOf[TransactionResponse].account)*/
+    Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].transaction
+
   }
 
   // Show me the transactions!!!
