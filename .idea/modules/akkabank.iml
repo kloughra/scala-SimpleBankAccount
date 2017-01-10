@@ -52,5 +52,6 @@
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-agent_2.11:2.3.12:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.11:2.3.12:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scalactic:scalactic_2.11:3.0.0:jar" level="project" />
   </component>
 </module>

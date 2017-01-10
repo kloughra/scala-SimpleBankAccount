@@ -19,6 +19,7 @@ abstract class Transaction {
   def toAccount: Account
   def fromAccount: Account
 }
+
 case class Deposit(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
 case class Withdraw(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
 case class Transfer(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
@@ -96,7 +97,16 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
   }
 
   // Show me the transactions!!!
-  override def toString() = transactions map (t => s"${t.date} - ${t.getClass.getSimpleName} amount ${t.amount}") mkString("\n")
+  override def toString() = transactions map (t => s"${t.date} :: ${t.getClass.getSimpleName} amount ${directionString(t)} ${t.amount}") mkString("\n")
+
+  private def directionString(trans:Transaction) = {
+       trans match{
+           case d:Deposit => " +"
+           case w:Withdraw => " -"
+           case t:Transfer => if(t.toAccount.owner.ssn == this.owner.ssn) " +" else " -"
+           case _ => ""
+       }
+  }
 }
 
 object Account {

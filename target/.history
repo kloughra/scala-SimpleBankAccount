@@ -51,3 +51,25 @@ test
 exit
 test
 exit
+test
+test:testOnly bank.AccountSpecification
+test:test-only bank.AccountSpecification
+help
+projects
+akkabank/test:test-only bank.AccountSpecification
+help
+tasks
+test
+testOnly AccountSpecification
+akkabank/test:testOnly bank.AccountSpecification
+clean
+akkabank/test:testOnly bank.AccountSpecification
+runMain
+run
+akkabank/test:testOnly bank.AccountSpecification
+exit
+sbt
+test
+run
+test
+exit
