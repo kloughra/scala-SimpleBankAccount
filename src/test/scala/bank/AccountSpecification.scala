@@ -17,7 +17,6 @@ class AccountSpecification extends Specification {
      """
 
     def testSimpleTransaction = {
-        val system = ActorSystem("System")
         //Three test users
         val person1 = Person("Harry", "Potter", "77-123-4500")
         val person2 = Person("Hermoine", "Granger", "33-412-5224")

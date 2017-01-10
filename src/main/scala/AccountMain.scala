@@ -2,7 +2,6 @@ import bank._
 import akka.actor.ActorSystem
 object AccountMain extends App{
 
-    val system = ActorSystem("System")
     val me = Person("Zaphod", "Beeblebrox", "77-123-4500")
     val maybeZaphodsAccount = Account(me) deposit 1000.00
     val maybeZaphodsAccount2 = maybeZaphodsAccount.get.toAccount withdraw 10
