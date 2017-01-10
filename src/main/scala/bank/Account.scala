@@ -11,6 +11,7 @@ import scala.concurrent.duration._
 import scala.util.Try
 
 
+
 abstract class Transaction {
   type Amount = Double
   def date:Date
@@ -44,7 +45,6 @@ class Transactor extends Actor {
                 val newAccount = w.toAccount.copy(transactions = w #:: w.toAccount.transactions)
                 w.copy(toAccount = newAccount, fromAccount = newAccount)
               }
-            //accnt.copy(transactions = w #:: accnt.transactions)
           else
             throw new ArithmeticException(s"Insufficient balance (${w.fromAccount.currentBalance}.")
         case t: Transfer =>
@@ -91,9 +91,6 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
 
   def transfer(amount:Amount, toAccount:Account) : Try[Transaction] = {
     val future = actor ? TransactionRequest(Transfer(new Date(),amount,toAccount,this))
-    /*val future2 = actor ? TransactionRequest(toAccount,Transfer(new Date(),amount, this, direction = true))
-    (Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].account,
-      Await.result(future2,timeout.duration).asInstanceOf[TransactionResponse].account)*/
     Await.result(future,timeout.duration).asInstanceOf[TransactionResponse].transaction
 
   }

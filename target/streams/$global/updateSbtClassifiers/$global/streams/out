@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/katherine.loughran/.ivy2/cache
 [debug] :: resolving dependencies :: bank_account#bank_account$sbt_2.11;0.0.1
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -10,7 +11,6 @@
 [debug] == resolving dependencies bank_account#bank_account$sbt_2.11;0.0.1->org.scala-sbt#sbt;0.13.9 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {default=[default(compile)]}
-[debug] no default cache defined: set to /Users/katherine.loughran/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
 [debug] 	found org.scala-sbt#sbt;0.13.9 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
@@ -788,9 +788,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 485ms :: artifacts dl 23ms
+[debug] :: resolution report :: resolve 846ms :: artifacts dl 31ms
 [debug] 	report for bank_account#bank_account$sbt_2.11;0.0.1 default produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sbt_2.11-default.xml
-[debug] 	resolve done (485ms resolve - 23ms download)
+[debug] 	resolve done (846ms resolve - 31ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: bank_account#bank_account$sources_2.11;0.0.1
 [debug] 	confs: [default]
@@ -950,6 +950,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.8.2!sbt-dependency-graph.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
-[debug] :: resolution report :: resolve 39ms :: artifacts dl 4ms
+[debug] :: resolution report :: resolve 55ms :: artifacts dl 11ms
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 default produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-default.xml
-[debug] 	resolve done (39ms resolve - 4ms download)
+[debug] 	resolve done (55ms resolve - 11ms download)

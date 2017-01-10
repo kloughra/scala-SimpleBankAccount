@@ -7,8 +7,188 @@
 		revision="0.0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170106200119"/>
+		date="20170110064108"/>
 	<dependencies>
+		<module organisation="org.specs2" name="specs2-scalacheck_2.11">
+			<revision name="3.8.4" status="release" pubdate="20160620051700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2956" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-scalacheck_2.11/ivy-3.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-scalacheck_2.11/3.8.4/specs2-scalacheck_2.11-3.8.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.4" rev-constraint-default="3.8.4" rev-constraint-dynamic="3.8.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14250" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-scalacheck_2.11/srcs/specs2-scalacheck_2.11-3.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-scalacheck_2.11/3.8.4/specs2-scalacheck_2.11-3.8.4-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="527062" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-scalacheck_2.11/jars/specs2-scalacheck_2.11-3.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-scalacheck_2.11/3.8.4/specs2-scalacheck_2.11-3.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-core_2.11">
+			<revision name="3.8.4" status="release" pubdate="20160620051639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3412" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-3.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/3.8.4/specs2-core_2.11-3.8.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.4" rev-constraint-default="3.8.4" rev-constraint-dynamic="3.8.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="104404" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-core_2.11/srcs/specs2-core_2.11-3.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/3.8.4/specs2-core_2.11-3.8.4-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-core_2.11" type="jar" ext="jar" status="no" details="" size="2125325" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-core_2.11/jars/specs2-core_2.11-3.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/3.8.4/specs2-core_2.11-3.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-matcher_2.11">
+			<revision name="3.8.4" status="release" pubdate="20160620051702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2800" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-3.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/3.8.4/specs2-matcher_2.11-3.8.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.4" rev-constraint-default="3.8.4" rev-constraint-dynamic="3.8.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-matcher_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="60617" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-matcher_2.11/srcs/specs2-matcher_2.11-3.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/3.8.4/specs2-matcher_2.11-3.8.4-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-matcher_2.11" type="jar" ext="jar" status="no" details="" size="3006702" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-matcher_2.11/jars/specs2-matcher_2.11-3.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/3.8.4/specs2-matcher_2.11-3.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-common_2.11">
+			<revision name="3.8.4" status="release" pubdate="20160620051650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3838" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-3.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/3.8.4/specs2-common_2.11-3.8.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.4" rev-constraint-default="3.8.4" rev-constraint-dynamic="3.8.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-common_2.11" type="jar" ext="jar" status="no" details="" size="2877884" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-common_2.11/jars/specs2-common_2.11-3.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/3.8.4/specs2-common_2.11-3.8.4.jar"/>
+					</artifact>
+					<artifact name="specs2-common_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="151009" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-common_2.11/srcs/specs2-common_2.11-3.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/3.8.4/specs2-common_2.11-3.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.11">
+			<revision name="1.13.1" status="release" pubdate="20160414135659" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.1/scalacheck_2.11-1.13.1.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.13.1" rev-constraint-default="1.13.1" rev-constraint-dynamic="1.13.1" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49692" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.13.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.1/scalacheck_2.11-1.13.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="1985847" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.13.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.1/scalacheck_2.11-1.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130628174435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
+					</artifact>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150724141224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109244" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="671138" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="423753" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-codata_2.11">
+			<revision name="3.8.4" status="release" pubdate="20160620051626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3093" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-codata_2.11/ivy-3.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.11/3.8.4/specs2-codata_2.11-3.8.4.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.4" rev-constraint-default="3.8.4" rev-constraint-dynamic="3.8.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="specs2-codata_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="59841" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-codata_2.11/srcs/specs2-codata_2.11-3.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.11/3.8.4/specs2-codata_2.11-3.8.4-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-codata_2.11" type="jar" ext="jar" status="no" details="" size="1231790" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.specs2/specs2-codata_2.11/jars/specs2-codata_2.11-3.8.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-codata_2.11/3.8.4/specs2-codata_2.11-3.8.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.11">
+			<revision name="7.2.3" status="release" pubdate="20160521041423" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/ivy-7.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.2.3/scalaz-concurrent_2.11-7.2.3.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="7.2.3" rev-constraint-default="7.2.3" rev-constraint-dynamic="7.2.3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.11" type="jar" ext="jar" status="no" details="" size="332321" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/jars/scalaz-concurrent_2.11-7.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.2.3/scalaz-concurrent_2.11-7.2.3.jar"/>
+					</artifact>
+					<artifact name="scalaz-concurrent_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20401" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/srcs/scalaz-concurrent_2.11-7.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.2.3/scalaz-concurrent_2.11-7.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.11">
+			<revision name="7.2.3" status="release" pubdate="20160521041420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2790" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-effect_2.11/ivy-7.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.2.3/scalaz-effect_2.11-7.2.3.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="7.2.3" rev-constraint-default="7.2.3" rev-constraint-dynamic="7.2.3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21355" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-effect_2.11/srcs/scalaz-effect_2.11-7.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.2.3/scalaz-effect_2.11-7.2.3-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-effect_2.11" type="jar" ext="jar" status="no" details="" size="403871" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-effect_2.11/jars/scalaz-effect_2.11-7.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.2.3/scalaz-effect_2.11-7.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.2.3" status="release" pubdate="20160521041536" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.3/scalaz-core_2.11-7.2.3.pom"/>
+				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="7.2.3" rev-constraint-default="7.2.3" rev-constraint-dynamic="7.2.3" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="jar" ext="jar" status="no" details="" size="11490495" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-core_2.11/jars/scalaz-core_2.11-7.2.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.2.3/scalaz-core_2.11-7.2.3.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="354477" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.3/scalaz-core_2.11-7.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-agent_2.11">
 			<revision name="2.3.12" status="release" pubdate="20150709104012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
@@ -30,11 +210,11 @@
 				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -45,11 +225,11 @@
 				<metadata-artifact status="no" details="" size="3952" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="143792" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/srcs/akka-remote_2.11-2.3.12-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12-sources.jar"/>
-					</artifact>
 					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1339889" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.3.12.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12.jar"/>
+					</artifact>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="143792" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/srcs/akka-remote_2.11-2.3.12-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -75,11 +255,11 @@
 				<metadata-artifact status="no" details="" size="6647" time="0" location="/Users/katherine.loughran/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1230201" time="0" location="/Users/katherine.loughran/.ivy2/cache/io.netty/netty/jars/netty-3.8.0.Final.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
-					</artifact>
 					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1079966" time="0" location="/Users/katherine.loughran/.ivy2/cache/io.netty/netty/srcs/netty-3.8.0.Final-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1230201" time="0" location="/Users/katherine.loughran/.ivy2/cache/io.netty/netty/jars/netty-3.8.0.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -90,11 +270,11 @@
 				<metadata-artifact status="no" details="" size="3139" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
-					</artifact>
 					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -119,11 +299,11 @@
 				<metadata-artifact status="no" details="" size="4293" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
-					</artifact>
 					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47186" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -149,11 +329,11 @@
 				<metadata-artifact status="no" details="" size="2752" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="config" type="jar" ext="jar" status="no" details="" size="219554" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe/config/jars/config-1.2.1.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
-					</artifact>
 					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe/config/srcs/config-1.2.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="219554" time="0" location="/Users/katherine.loughran/.ivy2/cache/com.typesafe/config/jars/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -164,11 +344,11 @@
 				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalactic/scalactic_2.11/ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="scalactic_2.11" type="jar" ext="jar" status="no" details="" size="739283" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalactic/scalactic_2.11/jars/scalactic_2.11-3.0.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar"/>
-					</artifact>
 					<artifact name="scalactic_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200869" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-3.0.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="scalactic_2.11" type="jar" ext="jar" status="no" details="" size="739283" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scalactic/scalactic_2.11/jars/scalactic_2.11-3.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/3.0.0/scalactic_2.11-3.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -179,11 +359,11 @@
 				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
-					</artifact>
 					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4573750" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -194,11 +374,11 @@
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
 				<caller organisation="bank_account" name="bank_account$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
-					</artifact>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/katherine.loughran/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

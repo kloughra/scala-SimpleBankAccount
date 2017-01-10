@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6228d538
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63051507
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
 [info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71a92c60
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4960e87f
 [debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0
 [debug] 	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@530e8aeb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7be36f82
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fabe5bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a835674
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37d0c959
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@652b5462
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18384941
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42ae5b4f
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-slf4j_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bdc9b5d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d4ceada
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-remote_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e4b147b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b0c7c0d
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-remote_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-remote_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73ada300
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a39d79e
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68c2876f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@483fb4b3
 [debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cfa5a0d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7343d209
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-agent_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b680764
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cb86501
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-agent_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-agent_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->runtime]
@@ -106,12 +106,108 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-agent_2.11;2.3.12 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d224446
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c22e6c
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[info] Resolving org.specs2#specs2-scalacheck_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dc82562
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-scalacheck_2.11;3.8.4
+[debug] 	found org.specs2#specs2-scalacheck_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[info] Resolving org.specs2#specs2-core_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@223dfa30
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;3.8.4
+[debug] 	found org.specs2#specs2-core_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[info] Resolving org.specs2#specs2-matcher_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72ab46fc
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;3.8.4
+[debug] 	found org.specs2#specs2-matcher_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[info] Resolving org.specs2#specs2-common_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@398aa34c
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;3.8.4
+[debug] 	found org.specs2#specs2-common_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[info] Resolving org.specs2#specs2-codata_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bab4a50
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-codata_2.11;3.8.4
+[debug] 	found org.specs2#specs2-codata_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-core_2.11;7.2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a0d4854
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.2.3
+[debug] 	found org.scalaz#scalaz-core_2.11;7.2.3 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-effect_2.11;7.2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73f1d091
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.2.3
+[debug] 	found org.scalaz#scalaz-effect_2.11;7.2.3 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-concurrent_2.11;7.2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d89ecdd
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.2.3
+[debug] 	found org.scalaz#scalaz-concurrent_2.11;7.2.3 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d3f7824
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30ddf6df
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[info] Resolving org.scalacheck#scalacheck_2.11;1.13.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c277295
+[debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.13.1
+[debug] 	found org.scalacheck#scalacheck_2.11;1.13.1 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[info] Resolving org.scala-sbt#test-interface;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51fb50e2
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [runtime]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [compile]
@@ -167,6 +263,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -219,6 +363,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [test]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [runtime]
@@ -275,6 +467,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -327,6 +567,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -379,38 +667,110 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
-[info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31aa7d9b
-[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0
-[debug] 	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@669342d8
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ba29b87
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41ba9789
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5caa9f84
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.12
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.12 in sbt-chain
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->default(compile)]
+[info] Resolving org.specs2#specs2-mock_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31d60ecc
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;3.8.4
+[debug] 	found org.specs2#specs2-mock_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
+[info] Resolving org.hamcrest#hamcrest-core;1.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c076f81
+[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
+[debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->default(compile)]
+[info] Resolving org.mockito#mockito-core;1.9.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f01d879
+[debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
+[debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->default(compile)]
+[info] Resolving org.objenesis#objenesis;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d6bae
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
+[debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->default(compile)]
+[info] Resolving org.specs2#specs2-junit_2.11;3.8.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f98bfeb
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;3.8.4
+[debug] 	found org.specs2#specs2-junit_2.11;3.8.4 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->default(compile)]
+[info] Resolving junit#junit;4.12 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@803aeeb
+[debug] sbt-chain: module revision found in cache: junit#junit;4.12
+[debug] 	found junit#junit;4.12 in sbt-chain
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -470,6 +830,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [optional]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [provided]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -524,6 +932,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [runtime-internal]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [runtime]
@@ -580,6 +1036,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -632,6 +1136,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [optional]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -685,6 +1237,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [test-internal]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [test]
@@ -742,6 +1342,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [compile->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -794,6 +1442,54 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [runtime->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -846,22 +1542,82 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [optional]
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [provided]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
@@ -916,22 +1672,82 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test-internal->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test-internal->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-stm#scala-stm_2.11;0.7 [test-internal->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test-internal->default(compile)]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test-internal->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test-internal->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalatest#scalatest_2.11;3.0.0 [test-internal->master]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->default(compile)]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
-[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-scalacheck_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-core_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-matcher_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-common_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-codata_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-core_2.11;7.2.3 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-effect_2.11;7.2.3 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalaz#scalaz-concurrent_2.11;7.2.3 [test-internal->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scalacheck#scalacheck_2.11;1.13.1 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.scala-sbt#test-interface;1.0 [test-internal->master]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->default(compile)]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->runtime]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->compile]
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-mock_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.hamcrest#hamcrest-core;1.3 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.mockito#mockito-core;1.9.5 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.objenesis#objenesis;1.0 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->org.specs2#specs2-junit_2.11;3.8.4 [test-internal->master]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test-internal->default(compile)]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test-internal->runtime]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test-internal->compile]
+[debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->junit#junit;4.12 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for bank_account#bank_account$sources_2.11;0.0.1 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -980,44 +1796,74 @@
 [debug] == resolving dependencies bank_account#bank_account$sources_2.11;0.0.1->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.0!scalactic_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.12!akka-slf4j_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.12!akka-slf4j_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar
-[debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.12!akka-remote_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar
+[debug] 	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-agent_2.11;2.3.12!akka-agent_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-agent_2.11;2.3.12!akka-agent_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-scalacheck_2.11;3.8.4!specs2-scalacheck_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-scalacheck_2.11;3.8.4!specs2-scalacheck_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.11;3.8.4!specs2-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.11;3.8.4!specs2-core_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.11;3.8.4!specs2-matcher_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.11;3.8.4!specs2-matcher_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.11;3.8.4!specs2-common_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.11;3.8.4!specs2-common_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-codata_2.11;3.8.4!specs2-codata_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-codata_2.11;3.8.4!specs2-codata_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.2.3!scalaz-core_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.2.3!scalaz-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.11;7.2.3!scalaz-effect_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.11;7.2.3!scalaz-effect_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.2.3!scalaz-concurrent_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.11;7.2.3!scalaz-concurrent_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.13.1!scalacheck_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.13.1!scalacheck_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-mock_2.11;3.8.4!specs2-mock_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-mock_2.11;3.8.4!specs2-mock_2.11.jar
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar
+[debug] 	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar(src)
+[debug] 	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar(src)
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-junit_2.11;3.8.4!specs2-junit_2.11.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2-junit_2.11;3.8.4!specs2-junit_2.11.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 195ms :: artifacts dl 26ms
+[debug] :: resolution report :: resolve 791ms :: artifacts dl 37ms
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 compile produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-compile.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 runtime produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-runtime.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 test produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-test.xml
@@ -1031,4 +1877,4 @@
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 docs produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-docs.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 pom produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-pom.xml
 [debug] 	report for bank_account#bank_account$sources_2.11;0.0.1 scala-tool produced in /Users/katherine.loughran/Documents/ScalaProjs/AkkaBank/target/resolution-cache/reports/bank_account-bank_account$sources_2.11-scala-tool.xml
-[debug] 	resolve done (195ms resolve - 26ms download)
+[debug] 	resolve done (791ms resolve - 37ms download)
