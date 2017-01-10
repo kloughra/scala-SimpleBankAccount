@@ -5,8 +5,8 @@ version := "0.0.1"
 scalaVersion := "2.11.8"
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.0"
-libraryDependencies += "com.wix" %% "accord-core" % "0.4.2"
-libraryDependencies += "com.wix" %% "accord-specs2" % "0.4.2"
+//libraryDependencies += "com.wix" %% "accord-core" % "0.4.2"
+//libraryDependencies += "com.wix" %% "accord-specs2" % "0.4.2"
 
 //libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" %"2.3.12"

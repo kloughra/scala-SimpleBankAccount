@@ -24,7 +24,7 @@ class AccountSpecification extends Specification {
         val person3 = person2.copy(first = "Hermon", ssn = "44-123-6453") //different person same last name
 
         //All have the same system
-        val account1 = Account(person1,system)
+        val account1 = Account(person1)
         val account2 = account1.copy(owner = person2)
         val account3 = account1.copy(owner = person3)
 
@@ -55,7 +55,7 @@ class AccountSpecification extends Specification {
             println(s"Current balance: ${trans.fromAccount.currentBalance}")
             println(trans.fromAccount)
         }
-        system.shutdown()
+        Account.end()
 
         //Check Balances of Account
         val res = trans2 map { trans =>

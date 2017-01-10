@@ -10,7 +10,8 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.util.Try
 
-import com.wix.accord.dsl._
+//import com.wix.accord.dsl._
+
 
 //Validate Amount !< 0
 //date in this lifetime?
@@ -83,7 +84,7 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
   val actor = system.actorOf(Props(new Transactor()))
   implicit val timeout = Timeout(10.seconds)
 
-  lazy val currentBalance = TransactionQueue.queue.filter(_.account.owner == owner).map(tr => tr match {
+  lazy val currentBalance = transactions.map(tr => tr match {
     case d: Deposit => d.amount
     case w: Withdraw => -w.amount
     case t:Transfer => if(t.toAccount.owner.ssn == this.owner.ssn) t.amount else -t.amount
