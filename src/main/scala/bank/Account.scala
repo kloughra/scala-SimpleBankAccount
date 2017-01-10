@@ -12,6 +12,7 @@ import scala.util.Try
 
 
 
+//Transaction - keeps track of the date, amount, and the accounts involved
 abstract class Transaction {
   type Amount = Double
   def date:Date
@@ -20,15 +21,17 @@ abstract class Transaction {
   def fromAccount: Account
 }
 
+//Types of Transactions Available
 case class Deposit(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
 case class Withdraw(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
 case class Transfer(date: Date, amount: Double, toAccount:Account, fromAccount:Account) extends Transaction
-//case class Transfer(date: Date, amount: Double, fromAccount: Account, direction:Boolean) extends Transaction
-
+// Transaction Request and Response for Actor
 case class TransactionRequest(transaction: Transaction)
 case class TransactionResponse(transaction: Try[Transaction])
 
 
+//Actor to return a new transaction based on the transaction request
+// Return a transaction with an updated Account attached
 class Transactor extends Actor {
   type Amount = Double
   def receive = {
@@ -36,10 +39,8 @@ class Transactor extends Actor {
       if(trans.amount < 0) throw new ArithmeticException(s"Negative transactions not allowed (${trans.amount}).")
       trans match {
           case d: Deposit =>
-              //return the a new transaction with new account - including that new transaction
               val newAccount = d.toAccount.copy(transactions = d #:: d.toAccount.transactions)
               d.copy(toAccount = newAccount, fromAccount = newAccount)
-          //accnt.copy(transactions = trans #:: accnt.transactions)
 
           case w: Withdraw =>
               if (w.fromAccount.currentBalance >= w.amount) {
@@ -99,6 +100,7 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
   // Show me the transactions!!!
   override def toString() = transactions map (t => s"${t.date} :: ${t.getClass.getSimpleName} amount ${directionString(t)} ${t.amount}") mkString("\n")
 
+  //Indicated direction of money when printing out transactions
   private def directionString(trans:Transaction) = {
        trans match{
            case d:Deposit => " +"
@@ -110,6 +112,6 @@ case class Account(opened: Date, owner: Person, transactions: Stream[Transaction
 }
 
 object Account {
-  // Improve the API, make it possible to create a new account with just a person instance.
+  //TODO: Improve the API, make it possible to create a new account with just a person instance.
   def apply(owner: Person, system:ActorSystem) = new Account(new Date(), owner, Stream[Transaction](),system)
 }

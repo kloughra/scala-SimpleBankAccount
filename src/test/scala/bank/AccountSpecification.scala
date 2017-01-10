@@ -28,17 +28,21 @@ class AccountSpecification extends Specification {
         val account2 = account1.copy(owner = person2)
         val account3 = account1.copy(owner = person3)
 
-        val transactions:Stream[Transaction] = Stream.empty[Transaction]
+        //val transactions:Stream[Transaction] = Stream.empty[Transaction]
 
+        //First Account - test deposit and withdrawl
         val trans1 = account1 deposit 1000.00  //accnt1 1000
         val account1b = trans1 map{trans => trans.toAccount}
         val trans2 = account1b.get withdraw 10.00   //accnt1 990
         val account1c = trans2 map{trans => trans.toAccount}
 
 
+        //Second Account - depost and transfer money to first account
         val trans3 = account2 deposit 5000.00  //accnt2 5000
         val account2b = trans3 map{trans => trans.fromAccount}
         val trans4 = account2b.get transfer(500, account1c.get) //accnt1 1490 accnt2 4500
+
+        //Print Transaction Histories
        trans4 map {trans =>
             println("~Harry~")
             println("Transaction history:")
@@ -53,6 +57,7 @@ class AccountSpecification extends Specification {
         }
         system.shutdown()
 
+        //Check Balances of Account
         val res = trans2 map { trans =>
             trans.fromAccount.currentBalance
         }
