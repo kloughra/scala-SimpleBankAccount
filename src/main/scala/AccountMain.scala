@@ -6,7 +6,7 @@ object AccountMain extends App{
     val maybeZaphodsAccount = Account(me) deposit 1000.00
     val maybeZaphodsAccount2 = maybeZaphodsAccount.get.toAccount withdraw 10
 
-    println(maybeZaphodsAccount2 map(_.toAccount currentBalance))
+    println(maybeZaphodsAccount2 map(_.toAccount.currentBalance))
 
     println(maybeZaphodsAccount2)
 
@@ -14,7 +14,7 @@ object AccountMain extends App{
     // Now a different account.
     val you = Person("Ford", "Prefect", "00-000-0001")
     val maybeFordsAccount = Account(you) deposit 5000.00
-    maybeFordsAccount map (_.toAccount currentBalance)
+    maybeFordsAccount map (_.toAccount.currentBalance)
 
     //Set up
 
@@ -22,7 +22,7 @@ object AccountMain extends App{
     val zaphodsAccount = maybeZaphodsAccount2.get.toAccount // Don't do this in the real world. Use getOrElse.
     val fordsAccount = maybeFordsAccount.get.fromAccount // Nope. Never do it.
     val maybeFords2Zaphods = fordsAccount transfer(500, zaphodsAccount)
-    maybeFords2Zaphods map (_.toAccount currentBalance)
+    maybeFords2Zaphods map (_.toAccount.currentBalance)
     val maybeFordsAccount2 = maybeFordsAccount
 
     maybeFords2Zaphods map {trans =>
